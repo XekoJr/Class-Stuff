@@ -1,0 +1,187 @@
+@import url(./nav&footer.css);
+
+/*IMAGEM PRINCIPAL*/
+
+.home-img {
+    background-image: linear-gradient(transparent, transparent, transparent,#110134);
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+}
+
+.home-img img{
+    position: relative;
+    width: 100%;
+    z-index: -2;
+}
+
+
+/*MONACO SECTION --- IMAGE*/
+
+.event {
+    margin-top: 100px;
+    width: 80%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10%;
+}
+
+h1 {
+    margin-top: 100px;
+    color: white;
+}
+
+.monaco {
+    margin-top: 550px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.event .monaco #background-monaco {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+
+/*MONACO SECTION --- FADE-BOX*/
+.monaco-inside {
+    z-index: 1;
+    background-image: linear-gradient(to right, #110134, rgba(255, 255, 255, 0));
+    width: 50%;
+    display:flex;
+    color: white;
+    flex-direction: column;
+    padding: 20px 0px 20px 40px;
+    font-size: 2ch;
+}
+
+.monaco-inside-item {
+    display: flex;
+    padding: 6px 0px;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    border-radius: 20px;
+    width: 75px;
+    padding: 3px 25px;
+    margin-top: 30px;
+    border: 3px solid white;
+    background-color: white;
+    color: #110134;
+    font-weight:450;
+}
+
+.event .button img {
+    padding-right: 5px;
+    width: 20px;
+    z-index: 1;
+}
+
+/*NEWSLETTER STYLES*/
+.newsletter {
+    margin-top: 150px;
+    width: 100%;
+    height: 880px;
+    position: static;
+    z-index: 3;
+    background-image: linear-gradient(#110134, transparent, transparent, #110134);
+    font-size: 2.5ch;
+}
+
+
+.newsletter img {
+    width: 100%;
+    overflow: hidden;
+    z-index: -5;
+    position: absolute;
+
+}
+
+.newsletter-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#newsletterTitle{
+    width: 1000px;
+    margin-left: 28px;
+    color: white;
+    
+}
+
+.newsletter-item {
+    width: 300px;
+    padding: 9px 12px;
+    margin: 8px;
+    margin-left: 40px;
+    border-radius: 12px;
+}
+
+.newsletter #email {
+    border: 3px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2ch;
+}
+
+.newsletter #submit {
+    width: 329px;
+    border: 3px solid white;
+    background-color: white;
+    margin-bottom: 30px;
+    font-size: 1.2ch;
+}
+
+/*NEWS CARDS*/
+#out-trackTitle {
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 420px;
+    border-radius: 40px;
+    margin: 50px 30px;
+    overflow:hidden;
+}
+
+.card-item .whitebox {
+    height: 50%;
+    background-color: white;
+    padding: 10px 20px 0px 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+
+.card-item .whitebox p{
+    margin-top: 10px;
+}
+
+.card-item img {
+    width: 300px;
+}

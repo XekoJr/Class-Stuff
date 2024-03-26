@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #110134;
+}
+
+/*NAV BAR*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    background-image: linear-gradient(black, rgba(255, 255, 255, 0));
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.series-logo {
+    width: 200px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 75px;
+}
+
+.nav-item {
+    padding: 0px 15px;
+    color: white;
+    font-size: 19px;
+    font-weight: light;
+}
+
+/*FOOTER*/
+.footer-box {
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    background-image: linear-gradient(#110134, #1a0250, #1a0250, #1a0250, #1a0250, rgba(255,255,255,0.5));
+}
+
+.footer-box-item {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+/*LEFT SIDE*/
+.footer-box-item .footer-reference {
+    height: 250px;
+    width: 200px;
+    font-size: 2.5ch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-box #references {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box-item h4 {
+    color: white;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.footer-box-item .pointer {
+    color: red;
+}
+
+/*RIGTH SIDE*/
+
+#series-logo {
+    width: 300px;
+}
+
+#bar {
+    background-color: rgba(255,255,255,0.5);
+    width: 350px;
+    height: 1px;
+    margin: 30px 0px;
+}
+
+.footer-sponsers {
+    display: flex;
+    align-items: center;
+}
+
+.footer-sponsers-item {
+    padding: 0px 20px;
+} 
+
+.footer-box-item #footer-netflix {
+    height: 80px;
+}
+
+.footer-box-item #footer-f1 {
+    height: 30px;
+}
+
+/*FOOTER BRANDS*/
+.brands {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+}
+
+.brands-box {
+    position: static;
+    width: fit-content;
+}
+
+.brands-box img{
+    height: 50px;
+    margin: 0px 15px;
+    opacity: 0.65;
+}
