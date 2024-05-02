@@ -786,4 +786,8 @@ main {
         padding: 17px 0px;
     }
 
+    .team-inf-text-item h4 {
+        width: 40%;
+    }
+
 }
