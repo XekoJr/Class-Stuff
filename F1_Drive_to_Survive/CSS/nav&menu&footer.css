@@ -186,6 +186,10 @@ nav ul li {
     transition: max-height .7s ease-out, background-color 1s ease-out;
 }
 
+#side-menu:checked ~ #header {
+    background-image: linear-gradient(#1a0250, #1a0250);
+}
+
 #side-menu:checked~#hamb .hamb-line {
     background: transparent;
 }
