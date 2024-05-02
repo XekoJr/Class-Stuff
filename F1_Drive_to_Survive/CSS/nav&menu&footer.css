@@ -482,7 +482,8 @@ nav ul li {
 @media screen and (max-width: 500px) {
 
     .title {
-        font-size: 1.3ch;
+        font-size: 1.2ch;
+        padding-left: 30px;
     }
 
     .years ul {

@@ -150,10 +150,6 @@
 }
 
 /*NEWS CARDS*/
-#out-track-title {
-    width: 80%;
-}
-
 .card-box {
     display: flex;
     flex-wrap: wrap;
