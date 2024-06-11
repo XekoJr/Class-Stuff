@@ -580,18 +580,23 @@ thead th {
 
     .containerDiv {
         width: 350px;
-        height: 300px;
+        height: 350px;
         justify-content: space-around;
         flex-direction: column;
     }
 
+    .childOne {
+        height: 280px;
+    }
+
     .container-h1 {
         width: 250px;
-        height: 40px;
+        height: 50px;
         background-size: 100%;
         background-image: none;
         font-weight: 700;
         font-size: 12px;
+        margin-bottom: 30px;
     }
 
     .question-buttons {
