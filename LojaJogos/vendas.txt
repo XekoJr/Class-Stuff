@@ -1,0 +1,18 @@
+e - 123 -  - 10.0
+Produto: 11
+
+e - 1111111 -  - 10.0
+Produto: 11
+
+e - 22222 -  - 20.0
+Produto: 11
+
+e - 12 -  - 20.0
+Produto: RRRRR
+
+e - 1a1a1a1 -  - 20.0
+Produto: 11
+
+e - 19:19 -  - 10.0
+Produto: LOL
+

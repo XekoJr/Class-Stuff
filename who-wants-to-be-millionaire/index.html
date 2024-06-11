@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who Wants to Be a Millionaire?</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav>
+    <div id="nav-non-play">
+      <a id="mini-logo" href="#"><img src="../images/background-home.jpg" alt="Game mini-logo"></a>
+
+      <div id="hamburger">
+        <img src="./images/more.png" alt="menu" id="menu-open">
+        <img src="./images/close.png" alt="close menu" id="menu-close">
+      </div>
+
+      <ul id="nav-menu" class="nav-menu-a">
+        <li><a class="nav-link active" href="#">Home</a></li>
+        <li><a class="nav-link" href="./highscore/index.html">Scores</a></li>
+        <li><a class="nav-link" href="./questions/index.html">Questions</a></li>
+      </ul>
+
+    </div>
+    <a href="./play/index.html" id="nav-play" class="yellow-button">
+      <h2>PLAY NOW</h2>
+    </a>
+  </nav>
+  <main id="home-page">
+    <div id="sound" class="btn-grad sound">
+      <img src="./images/volume-off.png" id="sound-off" alt="Volume Off">
+      <img src="./images/volume-on.png" id="sound-on" alt="Volume On">
+      <audio id="music" src="./audios/main-theme.mp3" loop></audio>
+    </div>
+    <a href="./play/index.html" id="home">
+      <button class="yellow-button" type="button">PLAY NOW</button>
+    </a>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
