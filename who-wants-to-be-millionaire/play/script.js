@@ -326,8 +326,6 @@ function useFiftyFifty() {
     const optionsList = document.querySelector('.questions-all');
     if (!optionsList) return;
 
-    phone.style.pointerEvents = 'none';
-
     const options = Array.from(optionsList.querySelectorAll('li'));
     const wrongOptions = options.filter(option => {
         const optionText = option.querySelector('h4').textContent;
@@ -351,8 +349,6 @@ function useFiftyFifty() {
 function usePhone() {
     const optionsList = document.querySelector('.questions-all');
     if (!optionsList) return;
-
-    fifty.style.pointerEvents = 'none';
 
     const options = Array.from(optionsList.querySelectorAll('li'));
     options.forEach(option => {
