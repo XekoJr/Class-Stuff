@@ -424,6 +424,19 @@ ul {
 
     #helps {
         top: 30vh;
+        left: 10%;
+    }
+
+    .timer {
+        left: 42%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .timer {
+        left: 39%;
     }
 
 }

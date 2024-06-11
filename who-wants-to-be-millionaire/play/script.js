@@ -152,6 +152,9 @@ function questionGame(questions) {
                 answerLi.classList.add('answer-selected');
                 sSelected.play();
 
+                phone.style.pointerEvents = 'none';
+                fifty.style.pointerEvents = 'none';
+
                 clearInterval(countdown);
 
                 setTimeout(function () {
@@ -323,6 +326,8 @@ function useFiftyFifty() {
     const optionsList = document.querySelector('.questions-all');
     if (!optionsList) return;
 
+    phone.style.pointerEvents = 'none';
+
     const options = Array.from(optionsList.querySelectorAll('li'));
     const wrongOptions = options.filter(option => {
         const optionText = option.querySelector('h4').textContent;
@@ -333,7 +338,9 @@ function useFiftyFifty() {
 
     if (wrongOptions.length > 1) {
         wrongOptions[0].classList.add('answer-dnf');
+        wrongOptions[0].style.pointerEvents = 'none';
         wrongOptions[1].classList.add('answer-dnf');
+        wrongOptions[1].style.pointerEvents = 'none';
     }
 
     fifty.style.pointerEvents = 'none';
@@ -345,6 +352,8 @@ function usePhone() {
     const optionsList = document.querySelector('.questions-all');
     if (!optionsList) return;
 
+    fifty.style.pointerEvents = 'none';
+
     const options = Array.from(optionsList.querySelectorAll('li'));
     options.forEach(option => {
 
@@ -353,6 +362,7 @@ function usePhone() {
 
         if (!isCorrect) {
             option.classList.add('answer-dnf');
+            option.style.pointerEvents = 'none';
         }
 
     });
@@ -436,6 +446,14 @@ function playGame() {
         if (ans === true) {
             currentLevel++;
 
+            if (!fifty.classList.contains('used')) {
+                fifty.style.pointerEvents = 'auto';
+            }
+
+            if (!phone.classList.contains('used')) {
+                phone.style.pointerEvents = 'auto';
+            }
+
             lvlTable(currentLevel);
             fetchQuestion(currentLevel, true);
             nextLvl.style.display = 'none';
@@ -492,7 +510,7 @@ function playGame() {
         }
 
     });
-    
+
 
     fifty.addEventListener('click', () => useFiftyFifty());
     phone.addEventListener('click', () => usePhone());
