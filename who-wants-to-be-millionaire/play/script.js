@@ -490,7 +490,7 @@ function playGame() {
         }
 
         setTimeout(() => {
-            window.location.href = event.target.href;
+            window.location.href = "../highscore/index.html";
         }, 1000);
 
     });
