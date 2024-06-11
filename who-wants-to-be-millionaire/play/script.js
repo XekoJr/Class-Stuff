@@ -1,22 +1,22 @@
 //---ALL SOUNDS
 const mainTheme = document.getElementById('music');
-mainTheme.volume = 0.02;
+mainTheme.volume = 0.2;
 const sCorrect = document.getElementById('s-correct');
-sCorrect.volume = 0.05;
+sCorrect.volume = 0.2;
 const sWrong = document.getElementById('s-wrong');
-sWrong.volume = 0.05;
+sWrong.volume = 0.2;
 const sSelected = document.getElementById('s-selected');
-sSelected.volume = 0.05;
+sSelected.volume = 0.2;
 const sStart = document.getElementById('start');
-sStart.volume = 0.05;
+sStart.volume = 0.2;
 const lvl_1_5 = document.getElementById('lvl-1-5');
-lvl_1_5.volume = 0.05;
+lvl_1_5.volume = 0.2;
 const lvl_6_10 = document.getElementById('lvl-6-10');
-lvl_6_10.volume = 0.05;
+lvl_6_10.volume = 0.2;
 const lvl_11_13 = document.getElementById('lvl-11-13');
-lvl_11_13.volume = 0.05;
+lvl_11_13.volume = 0.2;
 const lvl_14_15 = document.getElementById('lvl-14-15');
-lvl_14_15.volume = 0.05;
+lvl_14_15.volume = 0.2;
 
 //---SOUND AND MUSIC
 const sound = document.getElementById('sound');
