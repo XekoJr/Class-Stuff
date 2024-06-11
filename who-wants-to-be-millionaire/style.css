@@ -315,13 +315,13 @@ label {
     align-items: center;
     justify-content: center;
     margin: 0px;
-    font-size: 12px;
+    font-size: 10px;
     background-image: url(./images/question-question.png);
-    background-size: 420px;
+    background-size: 420px 38px;
     background-repeat: no-repeat;
     padding: 0px 20px;
     margin: 10px 0px;
-    height: 35px;
+    height: 38px;
     width: 420px;
 
 }
@@ -341,11 +341,11 @@ label {
     align-items: center;
     justify-content: center;
     width: 180px;
-    height: 28px;
+    height: 32px;
     font-size: 10px;
     text-align: center;
     background-image: url(./images/answer.png);
-    background-size: 180px;
+    background-size: 180px 32px;
     background-repeat: no-repeat;
     padding: 0px 20px;
     margin: 5px 0px;
