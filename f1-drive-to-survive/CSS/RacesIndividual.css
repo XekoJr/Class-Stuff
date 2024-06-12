@@ -1,0 +1,280 @@
+@import url(./nav&menu&footer.css);
+
+.race {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#r1 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/bahrain.webp);
+    background-position: bottom;
+}
+
+#r2 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/saudi.jpg);
+}
+
+#r3 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/australia.jpg);
+}
+
+#r4 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/japan.jpg);
+}
+
+#r5 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/china.jpg);
+    background-position: bottom;
+}
+
+#r6 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/miami.jpg);
+    background-position: bottom;
+}
+
+#r7 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/italy.jpg);
+    background-position: bottom;
+}
+
+#r8 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/monacoTrack.jpg);
+}
+
+#r9 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/canadaTrack.jpg);
+}
+
+#r10 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/spain.jpg);
+}
+
+#r11  {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/Austria.jpg);
+    background-position: bottom;
+}
+
+#r12 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/Great-Britain.jpg);
+    background-position: bottom;
+}
+
+#r13 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/spain.jpg);
+}
+
+#r14 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/belgium.jpg);
+    background-position: bottom;
+}
+
+#r15 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/netherlands.jpg);
+}
+
+#r16 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/italy2.jpg);
+}
+
+#r17 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/Azerbaijan.jpg);
+}
+
+#r18 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/Singapore.jpg);
+}
+
+#r19 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/us2.jpg);
+    background-position: bottom;
+}
+
+#r20 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/mexico.jpg);
+    background-position: bottom;
+}
+
+#r21 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/brasil.jpg);
+}
+
+#r22 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/lv.jpg);
+    background-position: bottom;
+}
+
+#r23 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/Qatar.jpg);
+}
+
+#r24 {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 0.2) 30%, rgba(17, 1, 52, 0.2) 70%, rgba(17, 1, 52, 1)), url(../Images/tracks/abu.jpg);
+}
+
+.race h1 {
+    font-family: "Rubik Mono One";
+    font-size: 4.8ch;
+}
+
+.race h4 {
+    background-color: #110134;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 2ch;
+}
+
+#podium-section {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#podium {
+    width: 700px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.podium-item {
+    height: 100%;
+    width: 200px;
+    border-radius: 25px 25px 0px 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.podium-item:first-child {
+    width: 180px;
+    height: 90%;
+}
+
+.podium-item:nth-child(3) {
+    width: 160px;
+    height: 85%;
+}
+
+#rb {
+    background-image: linear-gradient(to bottom,rgba(44, 83, 159, 1), rgba(17, 1, 52, 1));
+}
+
+#rb2 {
+    background-image: linear-gradient(to bottom,rgba(44, 83, 159, 1), rgba(17, 1, 52, 1));
+}
+
+#fr {
+    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 1), rgba(17, 1, 52, 1));
+}
+
+#fr2 {
+    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 1), rgba(17, 1, 52, 1));
+}
+
+#mc {
+    background-image: linear-gradient(to bottom, rgba(255, 106, 0, 1), rgba(17, 1, 52, 1));
+}
+
+.podium-item-driver {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.podium-item-driver img {
+    width: 100%;
+}
+
+.trophy {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trophy img {
+    height: 60px;
+}
+
+.podium-item:nth-child(2) .trophy img {
+    height: 70px;
+}
+
+#track {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+#track-inf {
+    width: 80%;
+    text-align: justify;
+}
+
+#track-inf h3 {
+    border: 2px solid white;
+    width: fit-content;
+    padding: 8px 10px;
+    border-radius: 30px;
+    margin: 20px 0px;
+}
+
+#track-inf p {
+    margin-bottom: 30px;
+    margin-left: 18px;
+}
+
+@media screen and (max-width: 550px) {
+    
+    #track {
+        font-size: 1.2ch;
+    }
+
+    #podium-section {
+        height: 200px;
+    }
+
+    #podium {
+        justify-content: space-evenly;
+    }
+
+    .podium-item {
+        width: 110px;
+    }
+
+    .podium-item:first-child {
+        width: 100px;
+    }
+
+    .podium-item:nth-child(3) {
+        width: 90px;
+    }
+
+    .trophy img {
+        height: 45px;
+    }
+
+    .podium-item:nth-child(2) .trophy img {
+        height: 55px;
+    }
+
+    .race h1 {
+        font-size: 4ch;
+    }
+
+}

@@ -1,0 +1,290 @@
+@import url(./nav&menu&footer.css);
+
+/*IMAGEM PRINCIPAL*/
+
+#home-img {
+    background-image: linear-gradient(to bottom, transparent 70%,#110134),  url(../Images/RB19.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+/*MONACO SECTION --- IMAGE*/
+
+#event {
+    margin-top: 100px;
+    width: 80%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10%;
+}
+
+#event .title {
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+#event-monaco {
+    width: 100%;
+    height: 650px;
+    margin-top: 75px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#monaco {
+    width: 100%;
+    height: 100%;
+    background: url(../Images/monaco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: end;
+    transition: transform 1s;
+}
+
+
+/*MONACO SECTION - FADE-BOX*/
+
+#monaco-inside {
+    background-image: linear-gradient(to right, #110134, rgba(255, 255, 255, 0));
+    width: 50%;
+    display:block;
+    color: white;
+    padding: 20px 0px 20px 40px;
+    font-size: 2ch;
+    transition: padding 1s;
+}
+
+.monaco-inside-item {
+    display: flex;
+    margin: 6px 0px;
+    align-items: center;
+}
+
+#event .button img {
+    margin-right: 8px; 
+    height: 20px;
+}
+
+#track {
+    height: 100px;
+    margin-left: 50px;
+}
+
+
+#event-monaco:hover #monaco {
+    transform: scale(1.15);
+    transition: transform 1s;
+}
+
+#event-monaco:hover #monaco-inside {
+    padding: 20px 0px 40px 100px;
+    transition: padding 1s;
+}
+
+
+/*NEWSLETTER STYLES*/
+
+#newsletter {
+    margin-top: 200px;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-image: linear-gradient(to bottom, #110134, transparent 50%, #110134),  url(../Images/2024grid.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 2.5ch;
+    display: flex;
+    align-items: end;
+}
+
+#newsletter-box {
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin-left: 50px;
+}
+
+.newsletter-item {
+    width: 300px;
+    padding: 9px 12px;
+    margin: 8px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+#newsletterTitle {
+    padding: 0px;
+    margin: 0px 0px 8px 8px;
+    width: 100%;
+    color: white;
+}
+
+#email {
+    border: 3px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2ch;
+}
+
+#submit {
+    width: 329px;
+    border: 3px solid white;
+    background-color: white;
+    font-size: 1.2ch;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(198, 198, 198);
+}
+
+#submit:active {
+    background-color: rgba(198, 198, 198, 0.75);
+}
+
+/*NEWS CARDS*/
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.card-item a {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 420px;
+    border-radius: 40px;
+    margin: 50px 30px;
+    overflow:hidden;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.5s ease-out;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-item .whitebox {
+    height: 50%;
+    background-color: white;
+    padding: 10px 20px 0px 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+
+.card-item .whitebox p{
+    margin-top: 10px;
+}
+
+.card-item img {
+    width: 100%;
+}
+
+.card-item a:hover {
+    transform: scale(1.15);
+    transition: transform 0.5s ease-out;
+}
+
+@media screen and (max-width: 700px) {
+
+    #home-img {
+        height: 600px;
+    }
+
+    #event{
+        width: 100%;
+        margin: 0%;
+        justify-content: flex-start;
+    }
+
+    #event .title {
+        margin-left: 30px;
+    }
+
+    #event-monaco {
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    #monaco {
+        background-size: 700px;
+        background-position: 50% 0%;
+    }
+
+    #monaco-inside {
+        margin-bottom: 30px;
+        padding: 10px 0px 10px 20px;
+        background-image: linear-gradient(to right, rgba(17, 1, 52, 0), rgba(255, 255, 255, 0));
+        width: 100%;
+    }
+
+    #event-monaco:hover #monaco {
+        transform: scale(1);
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+
+    #track {
+        display: none;
+    }
+
+    #event-monaco:hover #monaco-inside {
+        padding: 20px 0px 20px 60px;
+    }
+
+    #newsletter {
+        margin-top: 75px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    #event {
+        height: 650px;
+    }
+
+    #monaco-inside {
+        font-size: 1.2ch;
+    }
+    
+    #newsletter {
+        height: 600px;
+        font-size: 1.5ch;
+    }
+
+    #newsletter-box {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .card-item a {
+        margin: 30px;
+        width: 250px;
+        height: 350px;
+        font-size: 1.2ch;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    
+    #event-monaco:hover #monaco-inside {
+        padding: 0px 0px 0px 60px;
+    }
+
+    #newsletter-box {
+        margin-left: 0px;
+    }
+
+}

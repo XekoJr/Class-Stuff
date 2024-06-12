@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #110134;
+}
+
+/*Common Elements*/
+
+.button {
+    display: flex;
+    align-items: center;
+    font-size: 1.8ch;
+    border-radius: 20px;
+    padding: 3px 25px;
+    border: 3px solid white;
+    background-color: white;
+    color: #110134;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.bar-sep {
+    width: 80%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.title {
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: end;
+    padding-left: 120px;
+    position: relative;
+}
+
+
+/*NAV BAR*/
+
+/*NAV & Hamburger (Fornecido pelo docente da disciplina em aula) com ajustes pessoais*/
+#header {
+    background-image: linear-gradient(black, rgba(255, 255, 255, 0));
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    transition: background-color 1s ease-out;
+}
+
+/* Logo */
+.logo {
+    display: inline-block;
+    margin: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.logo img {
+    height: 60px;
+}
+
+/*Nav Section & hover animation*/
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    max-height: 0;
+    background-color: transparent;
+    transition: max-height .7s ease-out, background-color 1s ease-out;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a {
+    display: block;
+    margin: 30px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 2ch;
+    font-weight: 500;
+}
+
+nav ul li {
+    width: fit-content;
+    height: fit-content;
+}
+
+.underline {
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    background-color: white;
+    transform-origin: top left;
+    transition: transform 0.35s linear;
+    transform: scaleX(0);
+}
+
+.underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: top left;
+    transition: transform 0.35s ease-out;
+}
+
+/* Menu hamburguer */
+
+#hamb {
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}
+
+#hamb .hamb-line {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+    border-radius: 5px;
+}
+
+#hamb .hamb-line::before,
+#hamb .hamb-line::after {
+    background: white;
+    border-radius: 5px;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+#hamb .hamb-line::before {
+    top: 5px;
+}
+
+#hamb .hamb-line::after {
+    top: -5px;
+}
+
+#side-menu {
+    display: none;
+}
+
+/* Toggle menu icon */
+#side-menu:checked~nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#side-menu:checked~nav {
+    max-height: 100%;
+    background-color: #1a0250;
+    transition: max-height .7s ease-out, background-color 1s ease-out;
+}
+
+#header:has(#side-menu:checked) {
+    background-color: #1a0250;
+    transition: background-color 1s ease-out;
+}
+
+#side-menu:checked~#hamb .hamb-line {
+    background: transparent;
+}
+
+#side-menu:checked~#hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+#side-menu:checked~#hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+@media (min-width: 700px) {
+    nav {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    #side-menu:checked~nav {
+        display: block;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    #hamb {
+        display: none;
+    }
+}
+
+
+/*MENU SEASON*/
+
+.years {
+    color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.years div {
+    width: fit-content;
+    height: fit-content;
+}
+
+.years ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+.years-item a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: border 0.5s;
+}
+
+.years-item a:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
+    transition: border 0.5s;
+}
+
+.years-item a:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#year-item {
+    font-weight: 700;
+}
+
+
+/*FOOTER*/
+#footer-box {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    background-image: linear-gradient(#110134, #1a0250, #1a0250);
+}
+
+.footer-box-item {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 27px;
+}
+
+#references {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/*LEFT SIDE*/
+.footer-reference {
+    height: fit-content;
+    width: fit-content;
+    font-size: 2.5ch;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 65px;
+}
+
+.footer-box-item h4 {
+    text-align: left;
+    margin: 25px 0px;
+    text-decoration: none;
+}
+
+.footer-box-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box-item .pointer {
+    color: red;
+}
+
+/*RIGTH SIDE*/
+
+#series-logo {
+    width: 350px;
+}
+
+#bar {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 1px;
+    margin: 30px 0px;
+}
+
+.footer-sponsers {
+    display: flex;
+    align-items: center;
+}
+
+.footer-sponsers-item {
+    padding: 0px 20px;
+}
+
+#footer-netflix {
+    height: 100px;
+}
+
+#footer-f1 {
+    height: 50px;
+}
+
+/*FOOTER BRANDS*/
+.brands {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(#1a0250, rgba(255, 255, 255, 0.4));
+}
+
+.brands-box {
+    width: fit-content;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.brands-box img {
+    height: 100%;
+    margin: 0px 15px;
+    opacity: 0.65;
+}
+
+@media screen and (max-width: 1000px) {
+
+    nav ul a {
+        margin: 30px 12px;
+    }
+
+    .years {
+        font-size: 16px;
+    }
+
+    .years-item a {
+        margin: 0px 5px;  
+        padding: 5px 10px;
+    }
+
+    #footer-box {
+        height: 700px;
+        background-image: linear-gradient(#110134, #1a0250, #1a0250, #1a0250);
+    }
+
+    .brands-box img {
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .title {
+        height: 150px;
+        padding-left: 50px;
+        position: relative;
+    }
+
+    .logo {
+        margin: 17px;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2.7ch;
+        color: transparent;
+    }
+
+    .years {
+        font-size: 16px;
+    }
+
+    .years ul {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .years-item {
+        margin: 10px 9px;
+    }
+
+    .years-item a {
+        margin: 0px 5px;  
+        padding: 5px 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #footer-box {
+        height: 500px;
+    }
+
+    .footer-reference {
+        font-size: 2ch;
+        margin: 0px 22px;
+    }
+
+    #series-logo {
+        width: 200px;
+    }
+
+    #footer-f1 {
+        height: 30px;
+    }
+
+    #footer-netflix {
+        height: 50px;
+    }
+
+    .brands-box img {
+        height: 14px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .title {
+        font-size: 1.2ch;
+        padding-left: 30px;
+    }
+
+    .years ul {
+        margin-left: 10px;
+    }
+
+}
