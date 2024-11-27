@@ -1,0 +1,174 @@
+@import url(./nav&menu&footer.css);
+
+#teams-section {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#teams-section a {
+    width: 700px;
+    height: 300px;
+    margin: 50px 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.7s ease-out;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#teams-section a:nth-child(4n+2),
+#teams-section a:nth-child(4n-1) {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+#teams-section a:nth-child(4n-3),
+#teams-section a:nth-child(4n) {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.team-img img {
+    width: 400px;
+    margin: 15px;
+    border-radius: 20px;
+    transition: margin 0.7s ease-out, width 0.7s ease-out;
+}
+
+.team-logo img {
+    max-height: 100px;
+    max-width: 200px;
+    margin-right: 25px;
+    transition: margin 0.7s ease-out, max-width 0.7s ease-out, max-height 0.7s ease-out;
+}
+
+#fr .team-logo img {
+    margin-right: 85px;
+}
+
+#sb .team-logo img {
+    margin-right: 50px;
+}
+
+#tr .team-logo img {
+    margin-right: 85px;
+}
+
+.team:hover .team-img img {
+    margin: 0px;
+    width: 450px;
+    transition: margin 0.7s ease-out, width 0.7s ease-out, height 0.7s ease-out;
+}
+
+.team:hover .team-logo img {
+    margin-right: 15px;
+    max-width: 220px;
+    max-height: 130px;
+    transition: margin 0.7s ease-out, max-width 0.7s ease-out, max-height 0.7s ease-out;
+}
+
+#rb:hover {
+    background-color: rgba(70, 131, 253, 0.5);
+}
+
+#mc:hover {
+    background-color: rgba(255, 106, 0, 0.5);
+}
+
+#mb:hover {
+    background-color: rgba(0, 255, 200, 0.5);
+}
+
+#fr:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#am:hover {
+    background-color: rgba(70, 253, 171, 0.5);
+}
+
+#ha:hover {
+    background-color: rgba(255, 83, 83, 0.5);
+}
+
+#sb:hover {
+    background-color: rgba(0, 255, 60, 0.5);
+}
+
+#wl:hover {
+    background-color: rgba(0, 106, 255, 0.5);
+}
+
+#tr:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#al:hover {
+    background-color: rgba(255, 0, 157, 0.5);
+}
+
+#rp:hover {
+    background-color: rgba(238, 21, 166, 0.5);
+}
+
+#ar:hover {
+    background-color: rgba(172, 2, 22, 0.5);
+}
+
+#rn:hover {
+    background-color: rgba(250, 204, 0, 0.5);
+}
+
+@media screen and (max-width: 730px) {
+
+    #teams-section a {
+        width: 380px;
+        height: 450px;
+        
+    }
+
+    .team {
+        height: 450px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-img img {
+        width: 350px;
+    }
+
+    .team-logo img {
+        margin: 0px;
+        margin-bottom: 60px;
+    }
+
+    #fr .team-logo img {
+        margin-right: 0px;
+    }
+
+    #sb .team-logo img {
+        margin-right: 0px;
+    }
+
+    #tr .team-logo img {
+        margin-right: 0px;
+    }
+
+    .team:hover .team-img img {
+        margin: 0px;
+        width: 380px;
+    }
+
+    .team:hover .team-logo img {
+        max-height: 110px;
+        margin-right: 0px;
+    }
+
+}

@@ -1,0 +1,93 @@
+@import url(./nav&menu&footer.css);
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.section p {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.teams {
+    color: rgba(255, 255, 255, 0);
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 25px;
+    padding-left: 0px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 0px 20px 0px 0px;
+    margin: 30px;
+}
+
+.teams-item {
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.teams img {
+    width: 275px;
+    border-radius: 100%;
+    filter: blur(0px);
+    opacity: 1;
+    transition: filter 0.5s ease-in, opacity, 0.5s ease-in;
+}
+
+.text {
+    width: 275px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 3ch;
+    position: absolute;
+    bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    transition: color 0.5s ease-in;
+}
+
+.teams-item:hover .text {
+    color:rgba(255, 255, 255, 1);
+    transition: filter 0.5s ease-out, color 0.8s ease-out;
+}
+
+.teams-item:hover img{
+    filter: blur(6px);
+    opacity: 0.8;
+    transition: filter 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+@media screen and (max-width: 650px) {
+
+    .teams {
+        width: 350px;
+    }
+
+    .teams img {
+        width: 135px;
+    }
+
+    .teams-item {
+        margin: 0px 5px;
+    }
+
+    .text {
+        width: 135px;
+        font-size: 1.4ch;
+        bottom: 25px;
+    }
+
+}

@@ -1,0 +1,377 @@
+@import url(./nav&menu&footer.css);
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h3 {
+    font-family: "Rubik Mono One", monospace;
+    font-size: 3ch;
+}
+
+.driver {
+    margin-top: 75px;
+    width: 1300px;
+    height: 500px;
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    overflow: hidden;
+    transition: width 0.5s, height 0.5s;
+}
+
+/*LEFT SIDE*/
+.driver-item-img {
+    width: 45%;
+    background-size: 100%;
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+#max {
+    background-image: url(../Images/drivers/max.avif);
+}
+
+#perez {
+    background-image: url(../Images/drivers/perez.avif);
+}
+
+#ricciardo {
+    background-image: url(../Images/drivers/daniel.avif);
+}
+
+#yuki {
+    background-image: url(../Images/drivers/yuki.avif);
+}
+
+#albon {
+    background-image: url(../Images/drivers/albon.avif);
+}
+
+#sargeant {
+    background-image: url(../Images/drivers/sargeant.avif);
+}
+
+#sainz {
+    background-image: url(../Images/drivers/sainz.avif);
+}
+
+#leclerc {
+    background-image: url(../Images/drivers/leclerc.avif);
+}
+
+#hamilton {
+    background-image: url(../Images/drivers/hamilton.avif);
+}
+
+#russel {
+    background-image: url(../Images/drivers/russel.avif);
+}
+
+#ocon {
+    background-image: url(../Images/drivers/ocon.avif);
+}
+
+#gasly {
+    background-image: url(../Images/drivers/gasly.avif);
+}
+
+#stroll {
+    background-image: url(../Images/drivers/lance.avif);
+}
+
+#alonso {
+    background-image: url(../Images/drivers/fernando.avif);
+}
+
+#zhou {
+    background-image: url(../Images/drivers/zhou.avif);
+}
+
+#bottas {
+    background-image: url(../Images/drivers/bottas.avif);
+}
+
+#hull {
+    background-image: url(../Images/drivers/hulkenberg.avif);
+}
+
+#magn {
+    background-image: url(../Images/drivers/magnussen.avif);
+}
+
+#norris {
+    background-image: url(../Images/drivers/lando.avif);
+}
+
+#piastri {
+    background-image: url(../Images/drivers/piastri.avif);
+}
+
+#nick {
+    background-image: url(../Images/drivers/nickdevriesB.jpg);
+}
+
+#vettel {
+    background-image: url(../Images/drivers/vettel.jpg);
+}
+
+#kimi {
+    background-image: url(../Images/drivers/kimi.jpg);
+}
+
+#antonio {
+    background-image: url(../Images/drivers/antonio.jpeg);
+}
+
+#nikita {
+    background-image: url(../Images/drivers/nikita.png);
+}
+
+#kvyat {
+    background-image: url(../Images/drivers/kvyat.jpg);
+}
+
+#robert {
+    background-image: url(../Images/drivers/robert.jpg);
+}
+
+#roman {
+    background-image: url(../Images/drivers/roman.jpg);
+}
+
+#brendon {
+    background-image: url(../Images/drivers/brendon.jpg);
+}
+
+#stoffel {
+    background-image: url(../Images/drivers/stoffel.jpg);
+}
+
+#sergey {
+    background-image: url(../Images/drivers/sergey.jpeg);
+}
+
+#marcus {
+    background-image: url(../Images/drivers/marcus.jpg);
+}
+
+#latifi {
+    background-image: url(../Images/drivers/latifi.jpg);
+}
+
+#mick {
+    background-image: url(../Images/drivers/mick.jpg);
+}
+
+.driver-item-elements {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.driver-item-elements img {
+    width: 50px;
+    margin: 0px 10px;
+}
+
+/*RIGHT SIDE*/
+.driver-item-text {
+    width: 55%;
+    background-size: 100%, 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    align-items: center;
+}
+
+#rb {
+    background-image: linear-gradient(to right, rgba(44, 83, 159, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/rbPNG-removebg-preview.png);
+}
+
+#wl {
+    background-image: linear-gradient(to right, rgba(0, 106, 255, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/williamsPNG-removebg-preview.png);
+}
+
+#tr {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/rbtororossosmall.png);
+}
+
+#mc {
+    background-image: linear-gradient(to right, rgba(255, 106, 0, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/mclarenPNG-removebg-preview.png);
+}
+
+#mb {
+    background-image: linear-gradient(to right, rgba(0, 255, 200, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/mercedesPNG-removebg-preview.png);
+}
+
+#fr {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/logo-ferrarismall.png);
+}
+
+#am {
+    background-image: linear-gradient(to right, rgba(70, 253, 171, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/aston_martin_2024-removebg-preview.png);
+}
+
+#ha {
+    background-image: linear-gradient(to right, rgba(255, 83, 83, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/haas-removebg-preview.png);
+}
+
+#sb {
+    background-image: linear-gradient(to right, rgba(0, 255, 60, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/Logo_of_Stake_F1_Team_Kick_Sauber-removebg-preview.png);
+}
+
+#al {
+    background-image: linear-gradient(to right, rgba(255, 0, 157, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/alpine-removebg-preview.png);
+}
+
+#ar {
+    background-image: linear-gradient(to right, rgba(172, 2, 22, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/Alfa_Romeo_Racing_logo-removebg-preview.png);
+}
+
+#rn {
+    background-image: linear-gradient(to right, rgba(250, 204, 0, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/Renault_F1_Team_logo_2019.png);
+}
+
+#rp {
+    background-image: linear-gradient(to right, rgba(238, 21, 166, 0.9), rgba(17, 1, 52, 0.9) 85%), url(../Images/teamBrands/racing-point.webp);
+}
+
+.driver-text {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: 30px;
+    font-size: 2ch;
+}
+
+.driver-text:first-child {
+    margin-top: 37px;
+}
+
+.driver-text h4 {
+    width: 50%;
+}
+
+@media screen and (max-width: 1105px) {
+
+    .driver {
+        width: 900px;
+        height: 400px;
+    }
+
+    .driver-text {
+        font-size: 1.5ch;
+        margin: 25px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    main h3 {
+        font-size: 2.5ch;
+    }
+
+    .driver-item-elements img {
+        width: 30px;
+    }
+
+    .driver {
+        width: 800px;
+        height: 350px;
+    }
+
+    .driver-text {
+        font-size: 1.5ch;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width: 776px) {
+
+    .driver-item-img .driver-item-elements {
+        margin: 0px 10px;
+    }
+
+    main h3 {
+        font-size: 2ch;
+    }
+
+    .driver-item-elements img {
+        width: 30px;
+    }
+
+
+    .driver {
+        transform: translateX(-40px);
+        height: 300px;
+        width: 900px;
+        overflow: visible;
+    }
+
+    .driver-item-img {
+        width: 350px;
+    }
+
+    .driver-item-text {
+        width: 400px;
+    }
+
+    .driver-text {
+        margin: 20px;
+        font-size: 1ch;
+    }
+
+    .driver-text:first-child {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .driver-item-img .driver-item-elements {
+        margin: 0px 10px;
+    }
+
+    main h3 {
+        font-size: 2ch;
+    }
+
+    .driver-item-elements img {
+        width: 30px;
+    }
+
+
+    .driver {
+        transform: translateX(-40px);
+        height: 280px;
+        width: 700px;
+        overflow: visible;
+    }
+
+    .driver-item-img {
+        width: 280px;
+    }
+
+    .driver-item-text {
+        width: 280px;
+    }
+
+    .driver-text {
+        margin: 20px;
+        font-size: 1ch;
+    }
+
+    .driver-text:first-child {
+        margin-top: 25px;
+    }
+
+}

@@ -1,0 +1,511 @@
+@import url(./nav&menu&footer.css);
+
+#race-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#races {
+    width: 1300px;
+    height: 1100px;
+    margin: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#races-zone {
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    width: 1300px;
+    height: 1100px;
+    margin: 0px 75px;
+    box-sizing: border-box;
+    transform: scale(1);
+    scroll-snap-align: center;
+}
+
+.slide>img {
+    width: 1000px;
+    height: 600px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.round-track {
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 3ch;
+}
+
+.round {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, black, transparent);
+    border-radius: 25px 25px 0px 0px;
+    color: white;
+}
+
+.track {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+    height: 125px;
+    background-image: linear-gradient(to top, black, transparent);
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+}
+
+.track a {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 100%;
+    margin-right: 20px;
+    padding: 5px;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+}
+
+.inf {
+    height: 25px;
+    width: 25px;
+}
+
+.track h2 {
+    font-family: "Rubik Mono One";
+}
+
+.slide-prev,
+.slide-next {
+    position: absolute;
+    top: 25%;
+    border: solid 2px white;
+    padding: 9px 25px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 4ch;
+
+    &:hover {
+        background-color: white;
+        color: #110134;
+    }
+}
+
+a.slide-prev {
+    left: 1%;
+}
+
+a.slide-next {
+    right: 1%;
+}
+
+.track-inf-section {
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    &:hover .track-inf {
+        border-top: 4px solid #1a0250;
+        border-right: 4px solid #1a0250;
+        transition: border 1s;
+    }
+}
+
+.track-inf {
+    width: 95%;
+    height: 88%;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-radius: 0px 25px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    transition: border 1s;
+}
+
+.track-inf-track {
+    width: 450px;
+    margin-top: 20px;
+    height: 380px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.track-inf-title {
+    display: flex;
+    align-items: center;
+}
+
+.track-inf-title h1 {
+    display: flex;
+    align-items: center;
+    font-family: "Rubik Mono One";
+    margin-left: 50px;
+}
+
+.track-inf-title span {
+    background-color: #1a0250;
+    padding: 3px 8px;
+    border-radius: 27px;
+    font-size: 1ch;
+    margin-left: 10px;
+}
+
+.track-name {
+    text-align: left;
+}
+
+.track-name h1 {
+    font-family: "Rubik Mono One";
+    font-size: 4ch;
+}
+
+.track-name span {
+    font-size: 1.3ch;
+    margin-left: -20px;
+}
+
+.track-name span a {
+    text-decoration: none;
+    color: #1a0250;
+}
+
+.track-img {
+    position: relative;
+}
+
+.track-img img {
+    width: 450px;
+}
+
+.track-inf-img {
+    height: 360px;
+    width: 540px;
+    margin: 20px 50px 20px 20px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.track-IMG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1a0250;
+}
+
+.track-IMG img {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.track-IMG-time {
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgba(17, 1, 52, 0.75);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 1.5ch;
+    width: 250px;
+}
+
+.day-span {
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 30px;
+}
+
+.time-span {
+    background-color: #110134;
+    padding: 7px 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    #races {
+        width: 700px;
+        height: 1200px;
+    }
+
+    .slide {
+        width: 700px;
+        height: 1200px;
+    }
+
+    .slide>img {
+        width: 500px;
+        height: 400px;
+    }
+
+    .round-track {
+        width: 500px;
+        height: 400px;
+        font-size: 2ch;
+    }
+
+    .slide-prev,
+    .slide-next {
+        padding: 9px 19px;
+        border-radius: 50%;
+        color: white;
+        text-decoration: none;
+        font-size: 2ch;
+    }
+
+    .track a {
+        padding: 2px;
+    }
+
+    .track-inf-section {
+        height: 770px;
+        display: block;
+    }
+
+    .track-inf {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .track-inf-track {
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .track-img img {
+        width: 350px;
+    }
+
+    .track-inf-img {
+        height: 270px;
+        width: 400px;
+    }
+
+    .slide-prev,
+    .slide-next {
+        top: 15%;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    #race-section {
+        margin-top: 50px;
+    }
+
+    #races {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .slide {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .slide>img {
+        width: 90%;
+        height: 300px;
+    }
+
+    .round-track {
+        width: 90%;
+        height: 300px;
+        font-size: 1.5ch;
+    }
+
+    .round {
+        height: 50px;
+    }
+
+    .track {
+        height: 50px;
+    }
+
+    .slide-prev,
+    .slide-next {
+        padding: 9px 25px;
+        border-radius: 50%;
+        color: white;
+        text-decoration: none;
+        font-size: 2ch;
+        top: 32%;
+    }
+
+    a.slide-prev {
+        left: 40%;
+    }
+
+    a.slide-next {
+        right: 40%;
+    }
+
+    .inf {
+        height: 20px;
+        width: 20px;
+    }
+
+    .track a {
+        padding: 2px;
+        margin-right: 10px;
+    }
+
+    a.slide-prev {
+        left: 30%;
+    }
+
+    a.slide-next {
+        right: 30%;
+    }
+
+
+    .track-inf-section {
+        height: 600px;
+    }
+
+    .track-inf-track {
+        height: 300px;
+    }
+
+    .track-img img {
+        width: 200px;
+    }
+
+    .track-inf-img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .track-IMG-time {
+        width: auto;
+        font-size: 1ch;
+    }
+
+    .track-IMG-time span {
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    #races {
+        height: 900px;
+    }
+
+    .slide {
+        height: 900px;
+    }
+
+    .slide>img {
+        height: 200px;
+    }
+
+    .round-track {
+        height: 200px;
+        font-size: 1.1ch;
+    }
+
+    .round {
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    .track {
+        height: 30px;
+        padding-right: 10px;
+    }
+
+    .slide-prev,
+    .slide-next {
+        padding: 9px 25px;
+        border-radius: 50%;
+        color: white;
+        text-decoration: none;
+        font-size: 2ch;
+        top: 25%;
+    }
+
+    .track a {
+        padding: 2px;
+    }
+
+    .inf {
+        height: 15px;
+        width: 15px;
+    }
+
+    a.slide-prev {
+        left: 20%;
+    }
+
+    a.slide-next {
+        right: 20%;
+    }
+
+    .track-inf-section {
+        width: 100%;
+        height: 550px;
+
+        &:hover .track-inf {
+            border-top: 0px solid #1a0250;
+            border-right: 0px solid #1a0250;
+        }
+    }
+
+    .track-inf {
+        font-size: 1.1ch;
+        height: 500px;
+        width: 100%;
+        border: 0px solid white;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .track-inf-img {
+        height: 150px;
+        margin: 0px;
+    }
+
+}

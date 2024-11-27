@@ -1,0 +1,793 @@
+@import url(./nav&menu&footer.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-inf {
+    width: 80%;
+    height: 400px;
+    margin-top: 75px;
+    border-radius: 0px 25px 25px 0px;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.12);
+}
+
+#rb {
+    background-image: linear-gradient(to left, rgba(44, 83, 159, 1), rgba(17, 1, 52, 0.9));
+}
+
+#tr {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(17, 1, 52, 0.9));
+}
+
+#mc {
+    background-image: linear-gradient(to left, rgba(255, 106, 0, 1), rgba(17, 1, 52, 0.9));
+}
+
+#mb {
+    background-image: linear-gradient(to left, rgba(0, 255, 200, 1), rgba(17, 1, 52, 0.9));
+}
+
+#fr {
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 1), rgba(17, 1, 52, 0.9));
+}
+
+#am {
+    background-image: linear-gradient(to left, rgba(70, 253, 171, 1), rgba(17, 1, 52, 0.9));
+}
+
+#ha {
+    background-image: linear-gradient(to left, rgba(255, 83, 83, 1), rgba(17, 1, 52, 0.9));
+}
+
+#sb {
+    background-image: linear-gradient(to left, rgba(0, 255, 60, 1), rgba(17, 1, 52, 0.9));
+}
+
+#wl {
+    background-image: linear-gradient(to left, rgba(0, 106, 255, 0.5), rgba(17, 1, 52, 0.9));
+}
+
+#al {
+    background-image: linear-gradient(to left, rgba(255, 0, 157, 1), rgba(17, 1, 52, 0.9));
+}
+
+#ar {
+    background-image: linear-gradient(to left, rgba(172, 2, 22, 1), rgba(17, 1, 52, 0.9));
+}
+
+#rn {
+    background-image: linear-gradient(to left, rgba(250, 204, 0, 1), rgba(17, 1, 52, 0.9));
+}
+
+#rp {
+    background-image: linear-gradient(to left, rgba(238, 21, 166, 1), rgba(17, 1, 52, 0.9));
+}
+
+.team-inf-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.team-inf-text-item {
+    display: flex;
+    padding: 17px 30px;
+    font-size: 2ch;
+}
+
+.team-inf-text-item h4 {
+    width: 50%;
+}
+
+.team-inf-text-item p {
+    width: 50%;
+}
+
+.team-inf-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-inf-img img {
+    width: 70%;
+}
+
+.team-img {
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+#rb-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/redbull.avif);
+}
+
+#tr-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Toro-Rosso.jpeg);
+}
+
+#mc-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Mclaren.jpeg);
+}
+
+#mb-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Mercedes.jpg);
+}
+
+#fr-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Ferrari.jpg);
+}
+
+#am-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/aston_martin.webp);
+}
+
+#ha-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Haas.jpeg);
+}
+
+#sb-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Kick-Sauber.jpg);
+}
+
+#wl-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Williams.jpeg);
+}
+
+#al-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Alpine.jpg);
+}
+
+#ar-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Alfa-Romeu.jpg);
+}
+
+#rn-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Reanult.jpg);
+}
+
+#rp-car {
+    background-image: linear-gradient(to bottom, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0) 30%, rgba(17, 1, 52, 0) 70%, rgba(17, 1, 52, 1)), url(../Images/teamsCars/Racing-Point.jpg);
+}
+
+#drivers-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.team-drivers {
+    width: 80%;
+    height: 400px;
+    margin-top: 75px;
+    border-radius: 25px 0px 0px 25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.12);
+}
+
+#rb2 {
+    background-image: linear-gradient(to right, rgba(44, 83, 159, 1), rgba(17, 1, 52, 0.9));
+}
+
+#tr2 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(17, 1, 52, 0.9));
+}
+
+#mc2 {
+    background-image: linear-gradient(to right, rgba(255, 106, 0, 1), rgba(17, 1, 52, 0.9));
+}
+
+#mb2 {
+    background-image: linear-gradient(to right, rgba(0, 255, 200, 1), rgba(17, 1, 52, 0.9));
+}
+
+#fr2 {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(17, 1, 52, 0.9));
+}
+
+#am2 {
+    background-image: linear-gradient(to right, rgba(70, 253, 171, 1), rgba(17, 1, 52, 0.9));
+}
+
+#ha2 {
+    background-image: linear-gradient(to right, rgba(255, 83, 83, 1), rgba(17, 1, 52, 0.9));
+}
+
+#sb2 {
+    background-image: linear-gradient(to right, rgba(0, 255, 60, 1), rgba(17, 1, 52, 0.9));
+}
+
+#wl2 {
+    background-image: linear-gradient(to right, rgba(0, 106, 255, 0.5), rgba(17, 1, 52, 0.9));
+}
+
+#al2 {
+    background-image: linear-gradient(to right, rgba(255, 0, 157, 1), rgba(17, 1, 52, 0.9));
+}
+
+#ar2 {
+    background-image: linear-gradient(to right, rgba(172, 2, 22, 1), rgba(17, 1, 52, 0.9));
+}
+
+#rn2 {
+    background-image: linear-gradient(to right, rgba(250, 204, 0, 1), rgba(17, 1, 52, 0.9));
+}
+
+#rp2 {
+    background-image: linear-gradient(to right, rgba(238, 21, 166, 1), rgba(17, 1, 52, 0.9));
+}
+
+#title-drivers {
+    color: white;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 2ch;
+}
+
+#title-drivers h2 {
+    font-family: "Rubik Mono One";
+}
+
+#team-drivers-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-drivers .hover {
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.driver-main {
+    width: 200px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team-drivers-img {
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+}
+
+#max {
+    background-image: url(../Images/drivers/max.avif);
+}
+
+#perez {
+    background-image: url(../Images/drivers/perez.avif);
+}
+
+#ricciardo {
+    background-image: url(../Images/drivers/daniel.avif);
+}
+
+#yuki {
+    background-image: url(../Images/drivers/yuki.avif);
+}
+
+#albon {
+    background-image: url(../Images/drivers/albon.avif);
+}
+
+#sargeant {
+    background-image: url(../Images/drivers/sargeant.avif);
+}
+
+#sainz {
+    background-image: url(../Images/drivers/sainz.avif);
+}
+
+#leclerc {
+    background-image: url(../Images/drivers/leclerc.avif);
+}
+
+#hamilton {
+    background-image: url(../Images/drivers/hamilton.avif);
+}
+
+#russel {
+    background-image: url(../Images/drivers/russel.avif);
+}
+
+#ocon {
+    background-image: url(../Images/drivers/ocon.avif);
+}
+
+#gasly {
+    background-image: url(../Images/drivers/gasly.avif);
+}
+
+#stroll {
+    background-image: url(../Images/drivers/lance.avif);
+}
+
+#alonso {
+    background-image: url(../Images/drivers/fernando.avif);
+}
+
+#zhou {
+    background-image: url(../Images/drivers/zhou.avif);
+}
+
+#bottas {
+    background-image: url(../Images/drivers/bottas.avif);
+}
+
+#hull {
+    background-image: url(../Images/drivers/hulkenberg.avif);
+}
+
+#magn {
+    background-image: url(../Images/drivers/magnussen.avif);
+}
+
+#norris {
+    background-image: url(../Images/drivers/lando.avif);
+}
+
+#piastri {
+    background-image: url(../Images/drivers/piastri.avif);
+}
+
+#nick {
+    background-image: url(../Images/drivers/nickdevriesB.jpg);
+}
+
+#vettel {
+    background-image: url(../Images/drivers/vettel.jpg);
+}
+
+#kimi {
+    background-image: url(../Images/drivers/kimi.jpg);
+}
+
+#antonio {
+    background-image: url(../Images/drivers/antonio.jpeg);
+}
+
+#nikita {
+    background-image: url(../Images/drivers/nikita.png);
+}
+
+#kvyat {
+    background-image: url(../Images/drivers/kvyat.jpg);
+}
+
+#robert {
+    background-image: url(../Images/drivers/robert.jpg);
+}
+
+#roman {
+    background-image: url(../Images/drivers/roman.jpg);
+}
+
+#brendon {
+    background-image: url(../Images/drivers/brendon.jpg);
+}
+
+#stoffel {
+    background-image: url(../Images/drivers/stoffel.jpg);
+}
+
+#sergey {
+    background-image: url(../Images/drivers/sergey.jpeg);
+}
+
+#marcus {
+    background-image: url(../Images/drivers/marcus.jpg);
+}
+
+#latifi {
+    background-image: url(../Images/drivers/latifi.jpg);
+}
+
+#mick {
+    background-image: url(../Images/drivers/mick.jpg);
+}
+
+.hover:hover #max {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/max.avif);
+}
+
+.hover:hover #perez {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/perez.avif);
+}
+
+.hover:hover #liam {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/liam.jpg);
+}
+
+.hover:hover #yuki {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/yuki.avif);
+}
+
+.hover:hover #ricciardo {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/daniel.avif);
+}
+
+.hover:hover #albon {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/albon.avif);
+}
+
+.hover:hover #sargeant {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/sargeant.avif);
+}
+
+.hover:hover #sainz {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/sainz.avif);
+}
+
+.hover:hover #leclerc {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/leclerc.avif);
+}
+
+.hover:hover #hamilton {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/hamilton.avif);
+}
+
+.hover:hover #russel {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/russel.avif);
+}
+
+.hover:hover #ocon {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/ocon.avif);
+}
+
+.hover:hover #gasly {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/gasly.avif);
+}
+
+.hover:hover #stroll {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/lance.avif);
+}
+
+.hover:hover #alonso {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/fernando.avif);
+}
+
+.hover:hover #zhou {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/zhou.avif);
+}
+
+.hover:hover #bottas {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/bottas.avif);
+}
+
+.hover:hover #hull {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/hulkenberg.avif);
+}
+
+.hover:hover #magn {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/magnussen.avif);
+}
+
+.hover:hover #norris {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/lando.avif);
+}
+
+.hover:hover #piastri {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/piastri.avif);
+}
+
+.hover:hover #nick {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/nickdevriesB.jpg);
+}
+
+.hover:hover #vettel {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/vettel.jpg);
+}
+
+.hover:hover #kimi {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/kimi.jpg);
+}
+
+.hover:hover #antonio {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/antonio.jpeg);
+}
+
+.hover:hover #nikita {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/nikita.png);
+}
+
+.hover:hover #kvyat {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/kvyat.jpg);
+}
+
+.hover:hover #robert {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/robert.jpg);
+}
+
+.hover:hover #roman {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/roman.jpg);
+}
+
+.hover:hover #brendon {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/brendon.jpg);
+}
+
+.hover:hover #stoffel {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/stoffel.jpg);
+}
+
+.hover:hover #sergey {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/sergey.jpeg);
+}
+
+.hover:hover #marcus {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/marcus.jpg);
+}
+
+.hover:hover #latifi {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/latifi.jpg);
+}
+
+.hover:hover #mick {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url(../Images/drivers/mick.jpg);
+}
+
+.team-drivers-inf {
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-drivers-inf h4 {
+    font-family: "Rubik Mono One";
+    font-size: 2ch;
+}
+
+.team-drivers-inf h5 {
+    font-family: "Rubik Mono One";
+}
+
+
+#main-reserve {
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#title2 {
+    color: white;
+    font-family: "Rubik Mono One";
+    font-size: 3ch;
+    margin-left: 20px;
+}
+
+#reserve {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#liam {
+    width: 100%;
+    height: 70%;
+    background-image: url(../Images/drivers/liam.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: end;
+}
+
+#reserve-box {
+    color: white;
+    font-size: 3ch;
+    background-image: linear-gradient(to right, rgba(17, 1, 52, 1), rgba(17, 1, 52, 0));
+    width: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.hover:hover #reserve-box {
+    width: 100px;
+    background-image: linear-gradient(to right, rgba(17, 1, 52, 1), rgba(255, 255, 255, 0.2));
+}
+
+@media screen and (max-width: 1400px) {
+
+    .team-inf-text-item {
+        font-size: 1.7ch;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .team-inf-text-item {
+        font-size: 1.5ch;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    main {
+        align-items: center;
+    }
+
+    .team-inf {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 700px;
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    #rb {
+        background-image: linear-gradient(to top, rgba(44, 83, 159, 1), rgba(17, 1, 52, 0.9));
+    }
+
+    #tr {
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #mc {
+        background-image: linear-gradient(to top, rgba(255, 106, 0, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #mb {
+        background-image: linear-gradient(to top, rgba(0, 255, 200, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #fr {
+        background-image: linear-gradient(to top, rgba(255, 0, 0, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #am {
+        background-image: linear-gradient(to top, rgba(70, 253, 171, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #ha {
+        background-image: linear-gradient(to top, rgba(255, 83, 83, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #sb {
+        background-image: linear-gradient(to top, rgba(0, 255, 60, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #wl {
+        background-image: linear-gradient(to top, rgba(0, 106, 255, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #al {
+        background-image: linear-gradient(to top, rgba(255, 0, 157, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    .team-img {
+        background-position: center;
+    }
+
+    .team-inf-img {
+        width: 100%;
+    }
+
+    .team-inf-text {
+        width: 100%;
+        font-size: 1.8ch;
+        justify-content: center;
+    }
+
+    #drivers-section {
+        width: 60%;
+    }
+
+    #team-drivers-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 90%;
+    }
+
+    .hover {
+        width: fit-content;
+    }
+
+    .team-drivers {
+        flex-direction: column;
+        height: 700px;
+        width: 100%;
+        border-radius: 25px 25px 0px 0px;
+        box-shadow: 0px 0px black;
+        flex-wrap: wrap;
+    }
+
+    #rb2 {
+        background-image: linear-gradient(to bottom, rgba(44, 83, 159, 1), rgba(17, 1, 52, 0.9));
+        height: 1000px;
+    }
+
+    #tr2 {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #mc2 {
+        background-image: linear-gradient(to bottom, rgba(255, 106, 0, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #mb2 {
+        background-image: linear-gradient(to bottom, rgba(0, 255, 200, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #fr2 {
+        background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #am2 {
+        background-image: linear-gradient(to bottom, rgba(70, 253, 171, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #ha2 {
+        background-image: linear-gradient(to bottom, rgba(255, 83, 83, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #sb2 {
+        background-image: linear-gradient(to bottom, rgba(0, 255, 60, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #wl2 {
+        background-image: linear-gradient(to bottom, rgba(0, 106, 255, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #al2 {
+        background-image: linear-gradient(to bottom, rgba(255, 0, 157, 0.5), rgba(17, 1, 52, 0.9));
+    }
+
+    #title-drivers {
+        height: 10%;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .team-inf-text {
+        font-size: 1.3ch;
+    }
+
+    #drivers-section {
+        width: 80%;
+    }
+
+    .team-inf-text-item {
+        padding: 17px 0px;
+    }
+
+    .team-inf-text-item h4 {
+        width: 40%;
+    }
+
+}
