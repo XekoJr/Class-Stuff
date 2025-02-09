@@ -1,6 +1,0 @@
-Pesquisas do Cliente: c
-
-Nome de Jogo: A
-Nome de Produtora: D
-Nome de Diretor: d
-Nome de Jogo: AAA
